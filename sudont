@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+strings="Nah
+Srys?
+No way
+Stop trying
+Never!"
+
+text=$(echo "${strings}" | shuf -n 1)
+
+sudo echo $text
+
+$@
