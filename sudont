@@ -1,10 +1,11 @@
 #!/usr/bin/bash
 
-strings="Nah
+strings="Nah bro.
 Srys?
-No way
-Stop trying
-Never!"
+No way, jose.
+Stop trying, please.
+Never!
+No root for you."
 
 text=$(echo "${strings}" | shuf -n 1)
 
